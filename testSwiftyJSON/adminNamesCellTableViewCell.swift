@@ -1,11 +1,3 @@
-//
-//  adminNamesCellTableViewCell.swift
-//  Diwan Alshatti
-//
-//  Created by Mohammad Alabdullah on 5/24/16.
-//  Copyright © 2016 Mohammad Alabdullah. All rights reserved.
-//
-
 import UIKit
 
 class adminNamesCellTableViewCell: UITableViewCell {
@@ -17,13 +9,10 @@ class adminNamesCellTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
 
 }

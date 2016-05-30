@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD4BDB991CF14F1F00A056B1 /* NamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDB981CF14F1F00A056B1 /* NamesTableViewCell.swift */; };
+		CD4BDB9B1CF277B900A056B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDB9A1CF277B900A056B1 /* LoginViewController.swift */; };
+		CD4BDB9D1CF2BFB400A056B1 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDB9C1CF2BFB400A056B1 /* AdminViewController.swift */; };
+		CD4BDB9F1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDB9E1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift */; };
+		CD4BDBA11CF419EC00A056B1 /* addNewMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDBA01CF419EC00A056B1 /* addNewMember.swift */; };
+		CD4BDBA31CF41ADD00A056B1 /* updateMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDBA21CF41ADD00A056B1 /* updateMember.swift */; };
+		CD5B98241CF99FBD00C62B8C /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B98231CF99FBD00C62B8C /* Member.swift */; };
 		CDBC5E811CC864EF0067FA0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC5E801CC864EF0067FA0F /* AppDelegate.swift */; };
 		CDBC5E831CC864EF0067FA0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC5E821CC864EF0067FA0F /* ViewController.swift */; };
 		CDBC5E861CC864EF0067FA0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBC5E841CC864EF0067FA0F /* Main.storyboard */; };
@@ -15,7 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CDBC5E7D1CC864EF0067FA0F /* testSwiftyjson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSwiftyjson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4BDB981CF14F1F00A056B1 /* NamesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NamesTableViewCell.swift; path = ../../../.Trash/NamesTableViewCell.swift; sourceTree = "<group>"; };
+		CD4BDB9A1CF277B900A056B1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = testSwiftyJSON/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		CD4BDB9C1CF2BFB400A056B1 /* AdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdminViewController.swift; path = testSwiftyJSON/AdminViewController.swift; sourceTree = SOURCE_ROOT; };
+		CD4BDB9E1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = adminNamesCellTableViewCell.swift; path = testSwiftyJSON/adminNamesCellTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		CD4BDBA01CF419EC00A056B1 /* addNewMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = addNewMember.swift; path = testSwiftyJSON/addNewMember.swift; sourceTree = SOURCE_ROOT; };
+		CD4BDBA21CF41ADD00A056B1 /* updateMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = updateMember.swift; path = testSwiftyJSON/updateMember.swift; sourceTree = SOURCE_ROOT; };
+		CD5B98231CF99FBD00C62B8C /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		CDBC5E7D1CC864EF0067FA0F /* Diwan Alshatti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diwan Alshatti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBC5E801CC864EF0067FA0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDBC5E821CC864EF0067FA0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDBC5E851CC864EF0067FA0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +52,7 @@
 		CDBC5E741CC864EF0067FA0F = {
 			isa = PBXGroup;
 			children = (
-				CDBC5E7F1CC864EF0067FA0F /* testSwiftyjson */,
+				CDBC5E7F1CC864EF0067FA0F /* Diwan Alshatti */,
 				CDBC5E7E1CC864EF0067FA0F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +60,38 @@
 		CDBC5E7E1CC864EF0067FA0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CDBC5E7D1CC864EF0067FA0F /* testSwiftyjson.app */,
+				CDBC5E7D1CC864EF0067FA0F /* Diwan Alshatti.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CDBC5E7F1CC864EF0067FA0F /* testSwiftyjson */ = {
+		CDBC5E7F1CC864EF0067FA0F /* Diwan Alshatti */ = {
 			isa = PBXGroup;
 			children = (
 				CDBC5E801CC864EF0067FA0F /* AppDelegate.swift */,
 				CDBC5E821CC864EF0067FA0F /* ViewController.swift */,
+				CD4BDB9A1CF277B900A056B1 /* LoginViewController.swift */,
+				CD4BDB9C1CF2BFB400A056B1 /* AdminViewController.swift */,
+				CD4BDBA01CF419EC00A056B1 /* addNewMember.swift */,
+				CD4BDBA21CF41ADD00A056B1 /* updateMember.swift */,
 				CDBC5E841CC864EF0067FA0F /* Main.storyboard */,
 				CDBC5E871CC864EF0067FA0F /* Assets.xcassets */,
 				CDBC5E891CC864EF0067FA0F /* LaunchScreen.storyboard */,
 				CDBC5E8C1CC864EF0067FA0F /* Info.plist */,
+				CD4BDB981CF14F1F00A056B1 /* NamesTableViewCell.swift */,
+				CD4BDB9E1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift */,
+				CD5B98231CF99FBD00C62B8C /* Member.swift */,
 			);
+			name = "Diwan Alshatti";
 			path = testSwiftyjson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CDBC5E7C1CC864EF0067FA0F /* testSwiftyjson */ = {
+		CDBC5E7C1CC864EF0067FA0F /* Diwan Alshatti */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDBC5E8F1CC864EF0067FA0F /* Build configuration list for PBXNativeTarget "testSwiftyjson" */;
+			buildConfigurationList = CDBC5E8F1CC864EF0067FA0F /* Build configuration list for PBXNativeTarget "Diwan Alshatti" */;
 			buildPhases = (
 				CDBC5E791CC864EF0067FA0F /* Sources */,
 				CDBC5E7A1CC864EF0067FA0F /* Frameworks */,
@@ -79,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = testSwiftyjson;
+			name = "Diwan Alshatti";
 			productName = testSwiftyjson;
-			productReference = CDBC5E7D1CC864EF0067FA0F /* testSwiftyjson.app */;
+			productReference = CDBC5E7D1CC864EF0067FA0F /* Diwan Alshatti.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,10 +118,19 @@
 				TargetAttributes = {
 					CDBC5E7C1CC864EF0067FA0F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8745927ZY5;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = CDBC5E781CC864EF0067FA0F /* Build configuration list for PBXProject "testSwiftyjson" */;
+			buildConfigurationList = CDBC5E781CC864EF0067FA0F /* Build configuration list for PBXProject "Diwan Alshatti" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CDBC5E7C1CC864EF0067FA0F /* testSwiftyjson */,
+				CDBC5E7C1CC864EF0067FA0F /* Diwan Alshatti */,
 			);
 		};
 /* End PBXProject section */
@@ -135,7 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4BDBA11CF419EC00A056B1 /* addNewMember.swift in Sources */,
+				CD4BDB9D1CF2BFB400A056B1 /* AdminViewController.swift in Sources */,
+				CD4BDBA31CF41ADD00A056B1 /* updateMember.swift in Sources */,
 				CDBC5E831CC864EF0067FA0F /* ViewController.swift in Sources */,
+				CD5B98241CF99FBD00C62B8C /* Member.swift in Sources */,
+				CD4BDB9F1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift in Sources */,
+				CD4BDB991CF14F1F00A056B1 /* NamesTableViewCell.swift in Sources */,
+				CD4BDB9B1CF277B900A056B1 /* LoginViewController.swift in Sources */,
 				CDBC5E811CC864EF0067FA0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +289,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = testSwiftyjson/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = testSwiftyJSON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.malabdullah.testSwiftyjson;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malabdullah.DiwanAlshatti;
+				PRODUCT_NAME = "Diwan Alshatti";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,17 +303,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = testSwiftyjson/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = testSwiftyJSON/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.malabdullah.testSwiftyjson;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.malabdullah.DiwanAlshatti;
+				PRODUCT_NAME = "Diwan Alshatti";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CDBC5E781CC864EF0067FA0F /* Build configuration list for PBXProject "testSwiftyjson" */ = {
+		CDBC5E781CC864EF0067FA0F /* Build configuration list for PBXProject "Diwan Alshatti" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDBC5E8D1CC864EF0067FA0F /* Debug */,
@@ -281,13 +325,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDBC5E8F1CC864EF0067FA0F /* Build configuration list for PBXNativeTarget "testSwiftyjson" */ = {
+		CDBC5E8F1CC864EF0067FA0F /* Build configuration list for PBXNativeTarget "Diwan Alshatti" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CDBC5E901CC864EF0067FA0F /* Debug */,
 				CDBC5E911CC864EF0067FA0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

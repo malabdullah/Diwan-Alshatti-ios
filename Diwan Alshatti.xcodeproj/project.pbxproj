@@ -13,7 +13,7 @@
 		CD4BDB9F1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDB9E1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift */; };
 		CD4BDBA11CF419EC00A056B1 /* addNewMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDBA01CF419EC00A056B1 /* addNewMember.swift */; };
 		CD4BDBA31CF41ADD00A056B1 /* updateMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDBA21CF41ADD00A056B1 /* updateMember.swift */; };
-		CD5B98241CF99FBD00C62B8C /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B98231CF99FBD00C62B8C /* Member.swift */; };
+		CD5B98501CFBF68200C62B8C /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5B984F1CFBF68200C62B8C /* Members.swift */; };
 		CDBC5E811CC864EF0067FA0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC5E801CC864EF0067FA0F /* AppDelegate.swift */; };
 		CDBC5E831CC864EF0067FA0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC5E821CC864EF0067FA0F /* ViewController.swift */; };
 		CDBC5E861CC864EF0067FA0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBC5E841CC864EF0067FA0F /* Main.storyboard */; };
@@ -28,7 +28,7 @@
 		CD4BDB9E1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = adminNamesCellTableViewCell.swift; path = testSwiftyJSON/adminNamesCellTableViewCell.swift; sourceTree = SOURCE_ROOT; };
 		CD4BDBA01CF419EC00A056B1 /* addNewMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = addNewMember.swift; path = testSwiftyJSON/addNewMember.swift; sourceTree = SOURCE_ROOT; };
 		CD4BDBA21CF41ADD00A056B1 /* updateMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = updateMember.swift; path = testSwiftyJSON/updateMember.swift; sourceTree = SOURCE_ROOT; };
-		CD5B98231CF99FBD00C62B8C /* Member.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		CD5B984F1CFBF68200C62B8C /* Members.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Members.swift; path = testSwiftyJSON/Members.swift; sourceTree = SOURCE_ROOT; };
 		CDBC5E7D1CC864EF0067FA0F /* Diwan Alshatti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diwan Alshatti.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBC5E801CC864EF0067FA0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDBC5E821CC864EF0067FA0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 				CDBC5E8C1CC864EF0067FA0F /* Info.plist */,
 				CD4BDB981CF14F1F00A056B1 /* NamesTableViewCell.swift */,
 				CD4BDB9E1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift */,
-				CD5B98231CF99FBD00C62B8C /* Member.swift */,
+				CD5B984F1CFBF68200C62B8C /* Members.swift */,
 			);
 			name = "Diwan Alshatti";
 			path = testSwiftyjson;
@@ -170,7 +170,7 @@
 				CD4BDB9D1CF2BFB400A056B1 /* AdminViewController.swift in Sources */,
 				CD4BDBA31CF41ADD00A056B1 /* updateMember.swift in Sources */,
 				CDBC5E831CC864EF0067FA0F /* ViewController.swift in Sources */,
-				CD5B98241CF99FBD00C62B8C /* Member.swift in Sources */,
+				CD5B98501CFBF68200C62B8C /* Members.swift in Sources */,
 				CD4BDB9F1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift in Sources */,
 				CD4BDB991CF14F1F00A056B1 /* NamesTableViewCell.swift in Sources */,
 				CD4BDB9B1CF277B900A056B1 /* LoginViewController.swift in Sources */,

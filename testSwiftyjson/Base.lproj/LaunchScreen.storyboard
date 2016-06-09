@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XPi-XV-VUM">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch" translatesAutoresizingMaskIntoConstraints="NO" id="XPi-XV-VUM">
                                 <rect key="frame" x="0.0" y="28" width="600" height="572"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="XPi-XV-VUM" secondAttribute="height" multiplier="150:143" id="hl9-Vi-C2u"/>
@@ -39,4 +39,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Launch" width="1536" height="2048"/>
+    </resources>
 </document>

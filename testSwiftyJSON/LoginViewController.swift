@@ -13,29 +13,26 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var rememberSwitch: UISwitch!
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var errorLabel: UILabel!
     
     let baseURL = "http://www.malabdullah.com/diwan/json_login.php"
     var userDefaults = NSUserDefaults.standardUserDefaults()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        errorLabel.text = nil
-        errorLabel.hidden = true
     }
     
     @IBAction func loginClicked(sender: UIButton) {
         
         if let text = usernameTextField.text where text.isEmpty
         {
-            errorLabel.text = "Please, Enter username!"
-            errorLabel.hidden = false
+            //alert message
+            showAlert("Please Enter username in the username field!", actionTitle: "OK")
+            
         }
         else if let text = passwordTextField.text where text.isEmpty
         {
-            errorLabel.text = "Please, Enter Password!"
-            errorLabel.hidden = false
+            //alert message
+            showAlert("Please Enter password in the password field!", actionTitle: "OK")
         }
         else
         {
@@ -55,9 +52,10 @@ class LoginViewController: UIViewController {
             dispatch_async(dispatch_get_main_queue()){
                 if error != nil
                 {
+                    //alert error message
+                    self.showAlert((error?.localizedDescription)!, actionTitle: "OK")
                     print("error= \(error)")
-                    self.errorLabel.text = "Error: \(error)"
-                    self.errorLabel.hidden = false
+                    
                     return
                 }
                 
@@ -79,5 +77,12 @@ class LoginViewController: UIViewController {
             }
 
         }.resume()
+    }
+    
+    func showAlert(messageBody:String, actionTitle:String){
+        let alertMessage = UIAlertController(title: "Error", message: messageBody, preferredStyle: .Alert)
+        let actionButton = UIAlertAction(title: actionTitle, style: .Default, handler: nil)
+        alertMessage.addAction(actionButton)
+        self.presentViewController(alertMessage, animated: true, completion: nil)
     }
 }

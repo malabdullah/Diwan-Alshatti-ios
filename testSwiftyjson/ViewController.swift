@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class ViewController: UITableViewController {
+    @IBOutlet weak var bannerView: GADBannerView!
 
     let baseURL = "http://malabdullah.com/diwan/JSONnames.php"
     var list_count:Int=0
@@ -31,6 +33,15 @@ class ViewController: UITableViewController {
         self.title = "Diwan Alshatti"
         
         parseJson()
+        
+        
+        bannerView.adUnitID = "ca-app-pub-8587947849564336/4942193200"
+        bannerView.rootViewController = self
+        bannerView.loadRequest(GADRequest())
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
     }
     
     func parseJson(){
@@ -80,7 +91,7 @@ class ViewController: UITableViewController {
         
         cell_names.name_value.text = self.member[indexPath.row].name
         cell_names.date_value.text = self.member[indexPath.row].date
-        cell_names.comments_value.text = self.member[indexPath.row].comment
+        cell_names.comment_value.text = self.member[indexPath.row].comment
         
         return cell_names
     }

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD4BDB991CF14F1F00A056B1 /* NamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDB981CF14F1F00A056B1 /* NamesTableViewCell.swift */; };
+		8A176AE7BB1E3B398B280EFB /* Pods_Diwan_Alshatti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA396BEBC84B34AD742C169 /* Pods_Diwan_Alshatti.framework */; };
+		CD0A4C131D0A30B600A3611A /* NamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A4C121D0A30B600A3611A /* NamesTableViewCell.swift */; };
+		CD0A4C151D0A317D00A3611A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD0A4C141D0A317D00A3611A /* GoogleService-Info.plist */; };
 		CD4BDB9B1CF277B900A056B1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDB9A1CF277B900A056B1 /* LoginViewController.swift */; };
 		CD4BDB9D1CF2BFB400A056B1 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDB9C1CF2BFB400A056B1 /* AdminViewController.swift */; };
 		CD4BDB9F1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4BDB9E1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift */; };
@@ -22,7 +24,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD4BDB981CF14F1F00A056B1 /* NamesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NamesTableViewCell.swift; path = ../../../.Trash/NamesTableViewCell.swift; sourceTree = "<group>"; };
+		13B31EBFC6328604876FB0F1 /* Pods-Diwan Alshatti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diwan Alshatti.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diwan Alshatti/Pods-Diwan Alshatti.release.xcconfig"; sourceTree = "<group>"; };
+		51773E7F135301870F47AD6B /* Pods-Diwan Alshatti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diwan Alshatti.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diwan Alshatti/Pods-Diwan Alshatti.debug.xcconfig"; sourceTree = "<group>"; };
+		5BA396BEBC84B34AD742C169 /* Pods_Diwan_Alshatti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diwan_Alshatti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0A4C121D0A30B600A3611A /* NamesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NamesTableViewCell.swift; path = testSwiftyJSON/NamesTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		CD0A4C141D0A317D00A3611A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CD4BDB9A1CF277B900A056B1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = testSwiftyJSON/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
 		CD4BDB9C1CF2BFB400A056B1 /* AdminViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdminViewController.swift; path = testSwiftyJSON/AdminViewController.swift; sourceTree = SOURCE_ROOT; };
 		CD4BDB9E1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = adminNamesCellTableViewCell.swift; path = testSwiftyJSON/adminNamesCellTableViewCell.swift; sourceTree = SOURCE_ROOT; };
@@ -43,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A176AE7BB1E3B398B280EFB /* Pods_Diwan_Alshatti.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4B1BBCFA5CE6C2C97BD8E21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BA396BEBC84B34AD742C169 /* Pods_Diwan_Alshatti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C89DE716C4A4736CEDC95D46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51773E7F135301870F47AD6B /* Pods-Diwan Alshatti.debug.xcconfig */,
+				13B31EBFC6328604876FB0F1 /* Pods-Diwan Alshatti.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CDBC5E741CC864EF0067FA0F = {
 			isa = PBXGroup;
 			children = (
 				CDBC5E7F1CC864EF0067FA0F /* Diwan Alshatti */,
 				CDBC5E7E1CC864EF0067FA0F /* Products */,
+				C89DE716C4A4736CEDC95D46 /* Pods */,
+				A4B1BBCFA5CE6C2C97BD8E21 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,9 +104,10 @@
 				CDBC5E871CC864EF0067FA0F /* Assets.xcassets */,
 				CDBC5E891CC864EF0067FA0F /* LaunchScreen.storyboard */,
 				CDBC5E8C1CC864EF0067FA0F /* Info.plist */,
-				CD4BDB981CF14F1F00A056B1 /* NamesTableViewCell.swift */,
 				CD4BDB9E1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift */,
 				CD5B984F1CFBF68200C62B8C /* Members.swift */,
+				CD0A4C121D0A30B600A3611A /* NamesTableViewCell.swift */,
+				CD0A4C141D0A317D00A3611A /* GoogleService-Info.plist */,
 			);
 			name = "Diwan Alshatti";
 			path = testSwiftyjson;
@@ -93,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDBC5E8F1CC864EF0067FA0F /* Build configuration list for PBXNativeTarget "Diwan Alshatti" */;
 			buildPhases = (
+				48C06EEFBC1D4F5318ACB731 /* [CP] Check Pods Manifest.lock */,
 				CDBC5E791CC864EF0067FA0F /* Sources */,
 				CDBC5E7A1CC864EF0067FA0F /* Frameworks */,
 				CDBC5E7B1CC864EF0067FA0F /* Resources */,
+				186C1BF31148BA4EEDE61648 /* [CP] Embed Pods Frameworks */,
+				5A3A91124C624B77E81F42BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,12 +184,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDBC5E8B1CC864EF0067FA0F /* LaunchScreen.storyboard in Resources */,
+				CD0A4C151D0A317D00A3611A /* GoogleService-Info.plist in Resources */,
 				CDBC5E881CC864EF0067FA0F /* Assets.xcassets in Resources */,
 				CDBC5E861CC864EF0067FA0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		186C1BF31148BA4EEDE61648 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diwan Alshatti/Pods-Diwan Alshatti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48C06EEFBC1D4F5318ACB731 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A3A91124C624B77E81F42BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diwan Alshatti/Pods-Diwan Alshatti-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CDBC5E791CC864EF0067FA0F /* Sources */ = {
@@ -168,11 +247,11 @@
 			files = (
 				CD4BDBA11CF419EC00A056B1 /* addNewMember.swift in Sources */,
 				CD4BDB9D1CF2BFB400A056B1 /* AdminViewController.swift in Sources */,
+				CD0A4C131D0A30B600A3611A /* NamesTableViewCell.swift in Sources */,
 				CD4BDBA31CF41ADD00A056B1 /* updateMember.swift in Sources */,
 				CDBC5E831CC864EF0067FA0F /* ViewController.swift in Sources */,
 				CD5B98501CFBF68200C62B8C /* Members.swift in Sources */,
 				CD4BDB9F1CF40B6900A056B1 /* adminNamesCellTableViewCell.swift in Sources */,
-				CD4BDB991CF14F1F00A056B1 /* NamesTableViewCell.swift in Sources */,
 				CD4BDB9B1CF277B900A056B1 /* LoginViewController.swift in Sources */,
 				CDBC5E811CC864EF0067FA0F /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +366,7 @@
 		};
 		CDBC5E901CC864EF0067FA0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51773E7F135301870F47AD6B /* Pods-Diwan Alshatti.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -301,6 +381,7 @@
 		};
 		CDBC5E911CC864EF0067FA0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B31EBFC6328604876FB0F1 /* Pods-Diwan Alshatti.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
